@@ -98,3 +98,38 @@ button {
 button:active {
   scale: 0.9;
 }
+
+@media (max-width: 400px) {
+  form {
+    margin-top: 30%;
+    padding: 10px;
+  }
+  .country {
+    gap: 5px;
+  }
+  .country .dropdown .wrapper {
+    padding: 9px 5px;
+    width: 120px;
+  }
+}
+@media (min-width: 400px) {
+  form {
+    margin-top: 20%;
+    padding: 30px;
+  }
+  .country {
+    gap: 5px;
+  }
+  .country .dropdown .wrapper {
+    padding: 9px 13px;
+    width: 129px;
+  }
+}
+@media (min-width: 768px) {
+  form {
+    margin-top: 7%;
+  }
+  .country {
+    gap: 50px;
+  }
+}
